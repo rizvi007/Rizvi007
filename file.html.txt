@@ -1,0 +1,12 @@
+<html>
+<head>
+<title> Welcome to Bittech </title>
+</head>
+<body bgcolor=red>
+<input type='text' placeholder='first name'>
+<input type='password' maxlength=8> <br>
+Select all foods: Milk <input type=checkbox> Eggs <input type=checkbox> <br>
+Sex: Male <input type=radio name=r> Female <input type=radio name=r>
+<input type=button Value='sign up'
+</bpdy>
+</html>
