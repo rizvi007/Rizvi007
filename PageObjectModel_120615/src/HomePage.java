@@ -24,6 +24,10 @@ public class HomePage
 		dr.findElement(By.xpath(".//*[@id='main-nav-men']/a")).click();
 		return new MenPage(dr);
 	}
+	public void m()
+	{
+		System.out.println("hi");
+	}
 	
 	
 	
