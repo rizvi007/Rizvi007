@@ -27,6 +27,7 @@ public class HomePage
 	public void m()
 	{
 		System.out.println("hi");
+		System.out.println("hello");
 	}
 	
 	
