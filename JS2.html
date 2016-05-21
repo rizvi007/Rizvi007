@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title> JS class </title>
+        <script>
+            function verify()
+            {
+                var e= document.getElementById("email").value;
+                var p= document.getElementById("password").value;
+         
+                 if(e == "" && p == "")
+                 {
+                    alert("email and password field is empty");
+                 }   
+                 else if(p == "")
+                 {
+                    prompt("password field is empty");
+                 }   
+                 else if(e == "")
+                 {
+                    confirm("email field is empty");
+                 }   
+                 else if(e!= "abc@yahoo.com")
+                 {
+                    alert("wrong email entered");
+                 }   
+            }
+    
+        </script>
+    </head>
+    <body>
+
+
+        Email: <input type=text id="email"> <br><br>
+        Password: <input type=password id="password"> <br><br>
+        <input type=button value="sign up" onclick="verify()">
+        <!-- this is inline js call
+        <input type=button onclick="alert('Hi')">
+        --> 
+
+
+    </body>
+</html>
